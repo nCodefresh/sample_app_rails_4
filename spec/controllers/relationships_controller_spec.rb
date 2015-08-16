@@ -25,7 +25,7 @@ describe RelationshipsController do
 
     before { user.follow!(other_user) }
     let(:relationship) do
-      user.relationships.find_by(followed_id: other_user.id)
+      user.relationships.find_by(followed_id: other_user.id + 1)
     end
 
     it "should decrement the Relationship count" do
