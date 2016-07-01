@@ -8,7 +8,7 @@ steps:
   build-prj:
     type: build
     description: codefresh example
-    image-name: codefreshexamples/sample-app-rails-4
+    image-name: codefreshexamples/sample-app-rails4
     dockerfile: Dockerfile
     working-directory: ${{clone-prj}}
     tag: latest
