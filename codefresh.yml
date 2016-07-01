@@ -3,7 +3,7 @@ version: '1.0'
 steps:
   clone-prj:
     type: git-clone
-    repo: https://github.com/Codefresh-Examples/sample_app_rails_4.git
+    repo: https://github.com/nCodefresh/sample_app_rails_4.git
 
   build-prj:
     type: build
